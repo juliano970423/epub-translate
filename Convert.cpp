@@ -21,11 +21,9 @@ void Convert::convert(QString folderPath, QString opt){
         emit failed();
         return;
     }
-    // 设置过滤器以只查找.epub文件
     directory.setFilter(QDir::Files | QDir::NoSymLinks);
     directory.setNameFilters(QStringList("*.epub"));
 
-    // 获取所有匹配的文件列表
     QFileInfoList fileList = directory.entryInfoList();
     for(QFileInfo &fileInfo:fileList){
         qDebug()<<fileInfo.filePath();
