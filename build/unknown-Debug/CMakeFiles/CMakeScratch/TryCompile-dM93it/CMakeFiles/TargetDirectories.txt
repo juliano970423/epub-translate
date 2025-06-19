@@ -1,3 +1,0 @@
-/home/juliano/Desktop/Epub_translate/build/unknown-Debug/CMakeFiles/CMakeScratch/TryCompile-dM93it/CMakeFiles/cmTC_e52fd.dir
-/home/juliano/Desktop/Epub_translate/build/unknown-Debug/CMakeFiles/CMakeScratch/TryCompile-dM93it/CMakeFiles/edit_cache.dir
-/home/juliano/Desktop/Epub_translate/build/unknown-Debug/CMakeFiles/CMakeScratch/TryCompile-dM93it/CMakeFiles/rebuild_cache.dir

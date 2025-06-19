@@ -1,8 +1,0 @@
-#!/bin/sh
-
-/run/media/juliano/6EF626C4F6268C81/QtLinux/6.9.0/gcc_64/libexec/qt-android-runner.py \
-    --adb "/home/juliano/Android/Sdk/platform-tools/adb" \
-    --build-path "/home/juliano/Desktop/Epub_translate/build/Android_Qt_6_9_0_android_arm64_v8a_Clang_arm64_v8a-Debug/android-build-appEpub_translate" \
-    --apk "/home/juliano/Desktop/Epub_translate/build/Android_Qt_6_9_0_android_arm64_v8a_Clang_arm64_v8a-Debug/android-build-appEpub_translate/appEpub_translate.apk" \
-    $@
-

@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/">
-    <file alias="/qt/qml/Epub_translate">/home/juliano/Desktop/Epub_translate/build/Qt6_9-Debug/Epub_translate</file>
-
-  </qresource>
-</RCC>
