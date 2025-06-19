@@ -1,0 +1,279 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "OpenCC/deps/marisa-0.2.6/libmarisa.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"OpenCC/deps/marisa-0.2.6/CMakeLists.txt",
+			"OpenCC/src/CMakeLists.txt",
+			"OpenCC/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 155,
+				"parent" : 2
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 201,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 148,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 2,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fPIC -fdiagnostics-color=always   -std=c++14 -Wall -O0 -g3"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "ENABLE_DARTS"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "LOCALEDIR=\"/tmp/share/locale\""
+				},
+				{
+					"backtrace" : 6,
+					"define" : "PACKAGE_NAME=\"opencc\""
+				},
+				{
+					"backtrace" : 6,
+					"define" : "PKGDATADIR=\"/tmp/share/opencc\""
+				},
+				{
+					"backtrace" : 6,
+					"define" : "VERSION=\"1.1.9.Debug\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/home/juliano/Desktop/Epub_translate/build/Qt6_9-Debug/OpenCC/deps/marisa-0.2.6/marisa_autogen/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/juliano/Desktop/Epub_translate/OpenCC/deps/marisa-0.2.6/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/juliano/Desktop/Epub_translate/OpenCC/deps/marisa-0.2.6/lib"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "marisa_autogen_timestamp_deps::@95e5bc30a8a5feca5c8d"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "marisa_autogen::@95e5bc30a8a5feca5c8d"
+		}
+	],
+	"id" : "marisa::@95e5bc30a8a5feca5c8d",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 3,
+				"path" : "/tmp/lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/tmp"
+		}
+	},
+	"name" : "marisa",
+	"nameOnDisk" : "libmarisa.a",
+	"paths" : 
+	{
+		"build" : "OpenCC/deps/marisa-0.2.6",
+		"source" : "OpenCC/deps/marisa-0.2.6"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files\\Generated",
+			"sourceIndexes" : 
+			[
+				0,
+				10
+			]
+		},
+		{
+			"name" : "marisa",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				11
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt6_9-Debug/OpenCC/deps/marisa-0.2.6/marisa_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "OpenCC/deps/marisa-0.2.6/lib/marisa/trie.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "OpenCC/deps/marisa-0.2.6/lib/marisa/agent.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "OpenCC/deps/marisa-0.2.6/lib/marisa/grimoire/io/reader.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "OpenCC/deps/marisa-0.2.6/lib/marisa/grimoire/io/writer.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "OpenCC/deps/marisa-0.2.6/lib/marisa/grimoire/io/mapper.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "OpenCC/deps/marisa-0.2.6/lib/marisa/grimoire/trie/louds-trie.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "OpenCC/deps/marisa-0.2.6/lib/marisa/grimoire/trie/tail.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "OpenCC/deps/marisa-0.2.6/lib/marisa/grimoire/vector/bit-vector.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "OpenCC/deps/marisa-0.2.6/lib/marisa/keyset.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt6_9-Debug/OpenCC/deps/marisa-0.2.6/marisa_autogen/timestamp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt6_9-Debug/OpenCC/deps/marisa-0.2.6/marisa_autogen/timestamp.rule",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

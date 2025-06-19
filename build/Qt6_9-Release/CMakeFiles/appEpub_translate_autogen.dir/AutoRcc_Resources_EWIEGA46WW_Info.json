@@ -1,0 +1,32 @@
+{
+	"BUILD_DIR" : "/home/juliano/Desktop/Epub_translate/build/Qt6_9-Release/appEpub_translate_autogen",
+	"CMAKE_BINARY_DIR" : "/home/juliano/Desktop/Epub_translate/build/Qt6_9-Release",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/juliano/Desktop/Epub_translate/build/Qt6_9-Release",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/juliano/Desktop/Epub_translate",
+	"CMAKE_SOURCE_DIR" : "/home/juliano/Desktop/Epub_translate",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "/home/juliano/Desktop/Epub_translate/build/Qt6_9-Release/appEpub_translate_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/juliano/Desktop/Epub_translate/background/arch.png",
+		"/home/juliano/Desktop/Epub_translate/background/seele.png",
+		"/home/juliano/Desktop/Epub_translate/background/cantarella.png",
+		"/home/juliano/Desktop/Epub_translate/background/yuexia.png",
+		"/home/juliano/Desktop/Epub_translate/background/changli.png",
+		"/home/juliano/Desktop/Epub_translate/background/win11.png",
+		"/home/juliano/Desktop/Epub_translate/icons/logo.png",
+		"/home/juliano/Desktop/Epub_translate/icons/folder_open.svg"
+	],
+	"LOCK_FILE" : "/home/juliano/Desktop/Epub_translate/build/Qt6_9-Release/CMakeFiles/appEpub_translate_autogen.dir/AutoRcc_Resources_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "Resources" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_Resources.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt6/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/juliano/Desktop/Epub_translate/build/Qt6_9-Release/CMakeFiles/appEpub_translate_autogen.dir/AutoRcc_Resources_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/juliano/Desktop/Epub_translate/Resources.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

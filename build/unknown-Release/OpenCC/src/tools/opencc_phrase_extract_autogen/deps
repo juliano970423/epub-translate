@@ -1,0 +1,4 @@
+opencc_phrase_extract_autogen/timestamp: \
+	/home/juliano/Desktop/Epub_translate/OpenCC/src/tools/CMakeLists.txt \
+	/home/juliano/Desktop/Epub_translate/OpenCC/src/tools/PhraseExtract.cpp \
+	/usr/bin/cmake

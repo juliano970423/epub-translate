@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/Epub_translate">
+    <file alias="qmldir">/home/juliano/Desktop/Epub_translate/build/Android_Qt_6_9_0_android_arm64_v8a_Clang_arm64_v8a-Debug/Epub_translate/qmldir</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,797 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-b2ae082070052ec80c62.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						10,
+						11,
+						21,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						49,
+						56,
+						66,
+						67
+					]
+				},
+				{
+					"build" : "OpenCC",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						5,
+						6,
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-OpenCC-Release-7ba3cf198db66e5bf5aa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "OpenCC",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31
+					]
+				},
+				{
+					"build" : "OpenCC/deps/marisa-0.2.6",
+					"jsonFile" : "directory-OpenCC.deps.marisa-0.2.6-Release-e28ff4b0ad820cc7b427.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "OpenCC/deps/marisa-0.2.6",
+					"targetIndexes" : 
+					[
+						53,
+						54,
+						55
+					]
+				},
+				{
+					"build" : "OpenCC/src",
+					"childIndexes" : 
+					[
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-OpenCC.src-Release-e27339237a2acd256035.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "OpenCC/src",
+					"targetIndexes" : 
+					[
+						50,
+						51,
+						52
+					]
+				},
+				{
+					"build" : "OpenCC/src/tools",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-OpenCC.src.tools-Release-750e6a503a872b727490.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "OpenCC/src/tools",
+					"targetIndexes" : 
+					[
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65
+					]
+				},
+				{
+					"build" : "OpenCC/doc",
+					"jsonFile" : "directory-OpenCC.doc-Release-5d8c62b16498da830387.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "OpenCC/doc"
+				},
+				{
+					"build" : "OpenCC/data",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-OpenCC.data-Release-5a0b7ceb56616d8be823.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "OpenCC/data",
+					"targetIndexes" : 
+					[
+						9,
+						48
+					]
+				},
+				{
+					"build" : "OpenCC/test",
+					"jsonFile" : "directory-OpenCC.test-Release-9d72afbfa242ab191ace.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "OpenCC/test"
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Epub_translate",
+					"targetIndexes" : 
+					[
+						10,
+						11,
+						21,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						49,
+						56,
+						66,
+						67
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"name" : "opencc",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						48,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "Continuous::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-Continuous-Release-156199a15b3e9abc1208.json",
+					"name" : "Continuous",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousBuild::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-ContinuousBuild-Release-ce470996f1c6a1ff4ec5.json",
+					"name" : "ContinuousBuild",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousConfigure::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-ContinuousConfigure-Release-800a9de2c53fe31ae600.json",
+					"name" : "ContinuousConfigure",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousCoverage::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-ContinuousCoverage-Release-ec417f6d23de4c2b7cbb.json",
+					"name" : "ContinuousCoverage",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousMemCheck::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-ContinuousMemCheck-Release-6e496ca4a070a7bde134.json",
+					"name" : "ContinuousMemCheck",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousStart::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-ContinuousStart-Release-1f4527caa8cbcb0900f8.json",
+					"name" : "ContinuousStart",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousSubmit::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-ContinuousSubmit-Release-c9f5ed9904d526be7261.json",
+					"name" : "ContinuousSubmit",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousTest::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-ContinuousTest-Release-3b7cfb20ca0322ae1bc4.json",
+					"name" : "ContinuousTest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousUpdate::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-ContinuousUpdate-Release-c5b16ebe00c794c7e87a.json",
+					"name" : "ContinuousUpdate",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Dictionaries::@041a904a9cc291c6154c",
+					"jsonFile" : "target-Dictionaries-Release-cbe5f1a40c4a8be6b2eb.json",
+					"name" : "Dictionaries",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Epub_translate_lrelease::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Epub_translate_lrelease-Release-0ce266f843fb2066c569.json",
+					"name" : "Epub_translate_lrelease",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Epub_translate_lupdate::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Epub_translate_lupdate-Release-65b684b297b7c724ae94.json",
+					"name" : "Epub_translate_lupdate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Experimental::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-Experimental-Release-214e70651144b74b2675.json",
+					"name" : "Experimental",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalBuild::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-ExperimentalBuild-Release-a6f6909b8590c275ddef.json",
+					"name" : "ExperimentalBuild",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalConfigure::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-ExperimentalConfigure-Release-657096c118269e6df440.json",
+					"name" : "ExperimentalConfigure",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalCoverage::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-ExperimentalCoverage-Release-36eb64b58d705e06e2f9.json",
+					"name" : "ExperimentalCoverage",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalMemCheck::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-ExperimentalMemCheck-Release-f0fa8dae98c7f2f81149.json",
+					"name" : "ExperimentalMemCheck",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalStart::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-ExperimentalStart-Release-9b81b3c35fd46202a297.json",
+					"name" : "ExperimentalStart",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalSubmit::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-ExperimentalSubmit-Release-c1f5ba814d6c42aeac3d.json",
+					"name" : "ExperimentalSubmit",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalTest::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-ExperimentalTest-Release-efab32ef487fa293ad72.json",
+					"name" : "ExperimentalTest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalUpdate::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-ExperimentalUpdate-Release-5b398082fa8eeff267c3.json",
+					"name" : "ExperimentalUpdate",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "KF6Archive_QCH::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-KF6Archive_QCH-Release-dd403509bc9c8cfad8a4.json",
+					"name" : "KF6Archive_QCH",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Nightly::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-Nightly-Release-7d458fb36cff6ffec631.json",
+					"name" : "Nightly",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyBuild::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-NightlyBuild-Release-18be5098ba61db2bd360.json",
+					"name" : "NightlyBuild",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyConfigure::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-NightlyConfigure-Release-d1f449791a0220766c42.json",
+					"name" : "NightlyConfigure",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyCoverage::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-NightlyCoverage-Release-51b8acfb86c21e130bb2.json",
+					"name" : "NightlyCoverage",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyMemCheck::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-NightlyMemCheck-Release-2b107d9700c6c1086f08.json",
+					"name" : "NightlyMemCheck",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyMemoryCheck::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-NightlyMemoryCheck-Release-e425befb1fbb6d45254f.json",
+					"name" : "NightlyMemoryCheck",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyStart::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-NightlyStart-Release-31470aa8c552dc131db8.json",
+					"name" : "NightlyStart",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlySubmit::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-NightlySubmit-Release-153c20206e1884ff639c.json",
+					"name" : "NightlySubmit",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyTest::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-NightlyTest-Release-e8dded9bae289f408dc6.json",
+					"name" : "NightlyTest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyUpdate::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-NightlyUpdate-Release-6ffb57172fda1b837d14.json",
+					"name" : "NightlyUpdate",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Release-644f6bbfe900467327c9.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Release-59c7492fe4c953863689.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Release-dda07adafc6998fa1533.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Release-131e3bf376d8cf0172e5.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Release-2abafa4b1fa463fe2f5f.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appEpub_translate::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appEpub_translate-Release-13c97452ab99f5c73fe8.json",
+					"name" : "appEpub_translate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appEpub_translate_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appEpub_translate_autogen-Release-00cc35bcfd32dac71c0c.json",
+					"name" : "appEpub_translate_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appEpub_translate_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appEpub_translate_autogen_timestamp_deps-Release-54f6b9f2214ab1f15263.json",
+					"name" : "appEpub_translate_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appEpub_translate_copy_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appEpub_translate_copy_qml-Release-0ad64a4dcbb099ec26f0.json",
+					"name" : "appEpub_translate_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appEpub_translate_copy_res::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appEpub_translate_copy_res-Release-b1778cd66ddb0cbf6bd0.json",
+					"name" : "appEpub_translate_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appEpub_translate_other_files::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appEpub_translate_other_files-Release-503e774697a58d7602aa.json",
+					"name" : "appEpub_translate_other_files",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appEpub_translate_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appEpub_translate_qmlimportscan-Release-9fe1130ba7c1bf2c509e.json",
+					"name" : "appEpub_translate_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appEpub_translate_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appEpub_translate_qmllint-Release-4cd3f579caee090c641c.json",
+					"name" : "appEpub_translate_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appEpub_translate_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appEpub_translate_qmllint_json-Release-758c0f378bfda4be5656.json",
+					"name" : "appEpub_translate_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appEpub_translate_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appEpub_translate_qmllint_module-Release-f63cc6c58067cfad82e0.json",
+					"name" : "appEpub_translate_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appEpub_translate_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appEpub_translate_qmltyperegistration-Release-8333e7766e2625c42b3f.json",
+					"name" : "appEpub_translate_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "copy_libopencc_to_dir_of_opencc_dict::@041a904a9cc291c6154c",
+					"jsonFile" : "target-copy_libopencc_to_dir_of_opencc_dict-Release-c026f6c1effb6bd1c1ea.json",
+					"name" : "copy_libopencc_to_dir_of_opencc_dict",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "copy_opencc_data::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-copy_opencc_data-Release-f2635c70c1504cb0b2d5.json",
+					"name" : "copy_opencc_data",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "libopencc::@41bdf201e723fbc9e2f3",
+					"jsonFile" : "target-libopencc-Release-190d631fcedcf2e7b592.json",
+					"name" : "libopencc",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "libopencc_autogen::@41bdf201e723fbc9e2f3",
+					"jsonFile" : "target-libopencc_autogen-Release-7108ede6f2424750c1ee.json",
+					"name" : "libopencc_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "libopencc_autogen_timestamp_deps::@41bdf201e723fbc9e2f3",
+					"jsonFile" : "target-libopencc_autogen_timestamp_deps-Release-e306f6b05162661c4e65.json",
+					"name" : "libopencc_autogen_timestamp_deps",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "marisa::@95e5bc30a8a5feca5c8d",
+					"jsonFile" : "target-marisa-Release-d819907e7b4467364acf.json",
+					"name" : "marisa",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "marisa_autogen::@95e5bc30a8a5feca5c8d",
+					"jsonFile" : "target-marisa_autogen-Release-d24dce99ed346448d3d6.json",
+					"name" : "marisa_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "marisa_autogen_timestamp_deps::@95e5bc30a8a5feca5c8d",
+					"jsonFile" : "target-marisa_autogen_timestamp_deps-Release-e85afbade4c1269daea1.json",
+					"name" : "marisa_autogen_timestamp_deps",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_appEpub_translate_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_appEpub_translate_aotstats_target-Release-70918a7863b88e10dd67.json",
+					"name" : "module_appEpub_translate_aotstats_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "opencc::@ae47d1f216a6650cc51e",
+					"jsonFile" : "target-opencc-Release-fa00974c9bedc39cb299.json",
+					"name" : "opencc",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "opencc_autogen::@ae47d1f216a6650cc51e",
+					"jsonFile" : "target-opencc_autogen-Release-8336420663cf4a2b7997.json",
+					"name" : "opencc_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "opencc_autogen_timestamp_deps::@ae47d1f216a6650cc51e",
+					"jsonFile" : "target-opencc_autogen_timestamp_deps-Release-05b6e967576df1cf930a.json",
+					"name" : "opencc_autogen_timestamp_deps",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "opencc_dict::@ae47d1f216a6650cc51e",
+					"jsonFile" : "target-opencc_dict-Release-31a08b661caf505e8d8c.json",
+					"name" : "opencc_dict",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "opencc_dict_autogen::@ae47d1f216a6650cc51e",
+					"jsonFile" : "target-opencc_dict_autogen-Release-f3b2e16390b91d14cc05.json",
+					"name" : "opencc_dict_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "opencc_dict_autogen_timestamp_deps::@ae47d1f216a6650cc51e",
+					"jsonFile" : "target-opencc_dict_autogen_timestamp_deps-Release-be771edd06adf04e44ab.json",
+					"name" : "opencc_dict_autogen_timestamp_deps",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "opencc_phrase_extract::@ae47d1f216a6650cc51e",
+					"jsonFile" : "target-opencc_phrase_extract-Release-cfad7ffa555c6c4aacfd.json",
+					"name" : "opencc_phrase_extract",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "opencc_phrase_extract_autogen::@ae47d1f216a6650cc51e",
+					"jsonFile" : "target-opencc_phrase_extract_autogen-Release-65424642b5efcb4d9f2e.json",
+					"name" : "opencc_phrase_extract_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "opencc_phrase_extract_autogen_timestamp_deps::@ae47d1f216a6650cc51e",
+					"jsonFile" : "target-opencc_phrase_extract_autogen_timestamp_deps-Release-0cd9cbbd9514c31eb5aa.json",
+					"name" : "opencc_phrase_extract_autogen_timestamp_deps",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "release_translations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-release_translations-Release-057cef33be6e21ba207e.json",
+					"name" : "release_translations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "update_translations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-update_translations-Release-c332fbea2d6eede48d2e.json",
+					"name" : "update_translations",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/juliano/Desktop/Epub_translate/build/unknown-Release",
+		"source" : "/home/juliano/Desktop/Epub_translate"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

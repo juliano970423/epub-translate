@@ -1,0 +1,797 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-74048ff343788562c96a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						10,
+						11,
+						21,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						49,
+						56,
+						66,
+						67
+					]
+				},
+				{
+					"build" : "OpenCC",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						5,
+						6,
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-OpenCC-Debug-b8077f789ab29033b505.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "OpenCC",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31
+					]
+				},
+				{
+					"build" : "OpenCC/deps/marisa-0.2.6",
+					"jsonFile" : "directory-OpenCC.deps.marisa-0.2.6-Debug-e28ff4b0ad820cc7b427.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "OpenCC/deps/marisa-0.2.6",
+					"targetIndexes" : 
+					[
+						53,
+						54,
+						55
+					]
+				},
+				{
+					"build" : "OpenCC/src",
+					"childIndexes" : 
+					[
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-OpenCC.src-Debug-88fd303415ac5992f290.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "OpenCC/src",
+					"targetIndexes" : 
+					[
+						50,
+						51,
+						52
+					]
+				},
+				{
+					"build" : "OpenCC/src/tools",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-OpenCC.src.tools-Debug-750e6a503a872b727490.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "OpenCC/src/tools",
+					"targetIndexes" : 
+					[
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65
+					]
+				},
+				{
+					"build" : "OpenCC/doc",
+					"jsonFile" : "directory-OpenCC.doc-Debug-5d8c62b16498da830387.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "OpenCC/doc"
+				},
+				{
+					"build" : "OpenCC/data",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-OpenCC.data-Debug-fd7278227302f4166aa2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "OpenCC/data",
+					"targetIndexes" : 
+					[
+						9,
+						48
+					]
+				},
+				{
+					"build" : "OpenCC/test",
+					"jsonFile" : "directory-OpenCC.test-Debug-9d72afbfa242ab191ace.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "OpenCC/test"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Epub_translate",
+					"targetIndexes" : 
+					[
+						10,
+						11,
+						21,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						49,
+						56,
+						66,
+						67
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"name" : "opencc",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						48,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "Continuous::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-Continuous-Debug-bdfe0d1613ca2d660d58.json",
+					"name" : "Continuous",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousBuild::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-ContinuousBuild-Debug-afdd1ade231c0083891b.json",
+					"name" : "ContinuousBuild",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousConfigure::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-ContinuousConfigure-Debug-e7e9830d5139878c4f76.json",
+					"name" : "ContinuousConfigure",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousCoverage::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-ContinuousCoverage-Debug-e7550a7c504d4f1d256a.json",
+					"name" : "ContinuousCoverage",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousMemCheck::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-ContinuousMemCheck-Debug-832ac6c2f6b2f5bd49cf.json",
+					"name" : "ContinuousMemCheck",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousStart::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-ContinuousStart-Debug-09ec2a90998670cbbe7b.json",
+					"name" : "ContinuousStart",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousSubmit::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-ContinuousSubmit-Debug-c053e5a04db2f3240bd3.json",
+					"name" : "ContinuousSubmit",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousTest::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-ContinuousTest-Debug-53f84f8984aa144fd931.json",
+					"name" : "ContinuousTest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousUpdate::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-ContinuousUpdate-Debug-4c91b368631b68b7bd74.json",
+					"name" : "ContinuousUpdate",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Dictionaries::@041a904a9cc291c6154c",
+					"jsonFile" : "target-Dictionaries-Debug-3ff42ec7bac328d43492.json",
+					"name" : "Dictionaries",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Epub_translate_lrelease::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Epub_translate_lrelease-Debug-fe82763793fc0e4a53c8.json",
+					"name" : "Epub_translate_lrelease",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Epub_translate_lupdate::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Epub_translate_lupdate-Debug-5247050c736c3b20e4af.json",
+					"name" : "Epub_translate_lupdate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Experimental::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-Experimental-Debug-6a5632eeda700f0ef694.json",
+					"name" : "Experimental",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalBuild::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-ExperimentalBuild-Debug-314b774c9412bbfae289.json",
+					"name" : "ExperimentalBuild",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalConfigure::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-ExperimentalConfigure-Debug-0219b988a2c657494fb2.json",
+					"name" : "ExperimentalConfigure",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalCoverage::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-ExperimentalCoverage-Debug-4597658acb05c5e94e5a.json",
+					"name" : "ExperimentalCoverage",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalMemCheck::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-ExperimentalMemCheck-Debug-2a9d61eb3df4c937344b.json",
+					"name" : "ExperimentalMemCheck",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalStart::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-ExperimentalStart-Debug-88e91059e747812f80f3.json",
+					"name" : "ExperimentalStart",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalSubmit::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-ExperimentalSubmit-Debug-c86e6fc1dd96983ebf39.json",
+					"name" : "ExperimentalSubmit",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalTest::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-ExperimentalTest-Debug-cf9134f729595c8c5399.json",
+					"name" : "ExperimentalTest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalUpdate::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-ExperimentalUpdate-Debug-b428b16f7c6c64ec0476.json",
+					"name" : "ExperimentalUpdate",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "KF6Archive_QCH::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-KF6Archive_QCH-Debug-e1117fb22f28266c408d.json",
+					"name" : "KF6Archive_QCH",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Nightly::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-Nightly-Debug-1ab9ebd15873f365cf8a.json",
+					"name" : "Nightly",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyBuild::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-NightlyBuild-Debug-2f85ae02385e034ee569.json",
+					"name" : "NightlyBuild",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyConfigure::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-NightlyConfigure-Debug-1c1f7f4096c2d85cee8c.json",
+					"name" : "NightlyConfigure",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyCoverage::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-NightlyCoverage-Debug-e50a9de62f595f5edd43.json",
+					"name" : "NightlyCoverage",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyMemCheck::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-NightlyMemCheck-Debug-1acfdc440e2172a0ed00.json",
+					"name" : "NightlyMemCheck",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyMemoryCheck::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-NightlyMemoryCheck-Debug-20e1da0d73330f9731f5.json",
+					"name" : "NightlyMemoryCheck",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyStart::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-NightlyStart-Debug-3ca766115cb89186f282.json",
+					"name" : "NightlyStart",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlySubmit::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-NightlySubmit-Debug-1a208588d1f58c192689.json",
+					"name" : "NightlySubmit",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyTest::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-NightlyTest-Debug-80b8079abc41da0a8a30.json",
+					"name" : "NightlyTest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyUpdate::@26d0c1a3097a7ea7d85b",
+					"jsonFile" : "target-NightlyUpdate-Debug-9801b938577d24e102e4.json",
+					"name" : "NightlyUpdate",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Debug-2cb75868023644e1c85a.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-2552f789ba8fe68ba8c4.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-c68179b9d4de98c7832d.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-c7b5b2c2b426127b0463.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-8b6f68d4f6c514a8cb50.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appEpub_translate::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appEpub_translate-Debug-ae4a2363e99f2b21657f.json",
+					"name" : "appEpub_translate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appEpub_translate_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appEpub_translate_autogen-Debug-00b736ae7b749406bd1a.json",
+					"name" : "appEpub_translate_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appEpub_translate_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appEpub_translate_autogen_timestamp_deps-Debug-97fb592616611e23bd43.json",
+					"name" : "appEpub_translate_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appEpub_translate_copy_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appEpub_translate_copy_qml-Debug-8b90b9c0402f3f9adfd4.json",
+					"name" : "appEpub_translate_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appEpub_translate_copy_res::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appEpub_translate_copy_res-Debug-91e1725c67dd545f9e85.json",
+					"name" : "appEpub_translate_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appEpub_translate_other_files::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appEpub_translate_other_files-Debug-bbdb79ffa3a42565d77c.json",
+					"name" : "appEpub_translate_other_files",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appEpub_translate_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appEpub_translate_qmlimportscan-Debug-ef83567a297a60a05026.json",
+					"name" : "appEpub_translate_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appEpub_translate_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appEpub_translate_qmllint-Debug-c39d53b1c9f76c97f5cf.json",
+					"name" : "appEpub_translate_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appEpub_translate_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appEpub_translate_qmllint_json-Debug-00d62ada61021a66a9bf.json",
+					"name" : "appEpub_translate_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appEpub_translate_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appEpub_translate_qmllint_module-Debug-160bcd2b64806025d18b.json",
+					"name" : "appEpub_translate_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appEpub_translate_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appEpub_translate_qmltyperegistration-Debug-7a82e2700ef6ac53b2f9.json",
+					"name" : "appEpub_translate_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "copy_libopencc_to_dir_of_opencc_dict::@041a904a9cc291c6154c",
+					"jsonFile" : "target-copy_libopencc_to_dir_of_opencc_dict-Debug-8ea27fe8dc555358698a.json",
+					"name" : "copy_libopencc_to_dir_of_opencc_dict",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "copy_opencc_data::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-copy_opencc_data-Debug-3f94284288be02ef12bd.json",
+					"name" : "copy_opencc_data",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "libopencc::@41bdf201e723fbc9e2f3",
+					"jsonFile" : "target-libopencc-Debug-675d26722815b95becfc.json",
+					"name" : "libopencc",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "libopencc_autogen::@41bdf201e723fbc9e2f3",
+					"jsonFile" : "target-libopencc_autogen-Debug-80a14e12a963b23f42db.json",
+					"name" : "libopencc_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "libopencc_autogen_timestamp_deps::@41bdf201e723fbc9e2f3",
+					"jsonFile" : "target-libopencc_autogen_timestamp_deps-Debug-e306f6b05162661c4e65.json",
+					"name" : "libopencc_autogen_timestamp_deps",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "marisa::@95e5bc30a8a5feca5c8d",
+					"jsonFile" : "target-marisa-Debug-9fee955430886f937a95.json",
+					"name" : "marisa",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "marisa_autogen::@95e5bc30a8a5feca5c8d",
+					"jsonFile" : "target-marisa_autogen-Debug-5cbf4e1c639f0607b52c.json",
+					"name" : "marisa_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "marisa_autogen_timestamp_deps::@95e5bc30a8a5feca5c8d",
+					"jsonFile" : "target-marisa_autogen_timestamp_deps-Debug-e85afbade4c1269daea1.json",
+					"name" : "marisa_autogen_timestamp_deps",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_appEpub_translate_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_appEpub_translate_aotstats_target-Debug-debd86168aef4b8ac098.json",
+					"name" : "module_appEpub_translate_aotstats_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "opencc::@ae47d1f216a6650cc51e",
+					"jsonFile" : "target-opencc-Debug-e713d1e94d08fc738401.json",
+					"name" : "opencc",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "opencc_autogen::@ae47d1f216a6650cc51e",
+					"jsonFile" : "target-opencc_autogen-Debug-ea372aab76528ff81689.json",
+					"name" : "opencc_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "opencc_autogen_timestamp_deps::@ae47d1f216a6650cc51e",
+					"jsonFile" : "target-opencc_autogen_timestamp_deps-Debug-05b6e967576df1cf930a.json",
+					"name" : "opencc_autogen_timestamp_deps",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "opencc_dict::@ae47d1f216a6650cc51e",
+					"jsonFile" : "target-opencc_dict-Debug-1f0e3f34e3b0f0073a8a.json",
+					"name" : "opencc_dict",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "opencc_dict_autogen::@ae47d1f216a6650cc51e",
+					"jsonFile" : "target-opencc_dict_autogen-Debug-0bbcd615d1dd0016d9d2.json",
+					"name" : "opencc_dict_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "opencc_dict_autogen_timestamp_deps::@ae47d1f216a6650cc51e",
+					"jsonFile" : "target-opencc_dict_autogen_timestamp_deps-Debug-be771edd06adf04e44ab.json",
+					"name" : "opencc_dict_autogen_timestamp_deps",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "opencc_phrase_extract::@ae47d1f216a6650cc51e",
+					"jsonFile" : "target-opencc_phrase_extract-Debug-1c00f7b146620ec8a75e.json",
+					"name" : "opencc_phrase_extract",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "opencc_phrase_extract_autogen::@ae47d1f216a6650cc51e",
+					"jsonFile" : "target-opencc_phrase_extract_autogen-Debug-891c4af673feb0f884d6.json",
+					"name" : "opencc_phrase_extract_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "opencc_phrase_extract_autogen_timestamp_deps::@ae47d1f216a6650cc51e",
+					"jsonFile" : "target-opencc_phrase_extract_autogen_timestamp_deps-Debug-0cd9cbbd9514c31eb5aa.json",
+					"name" : "opencc_phrase_extract_autogen_timestamp_deps",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "release_translations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-release_translations-Debug-057cef33be6e21ba207e.json",
+					"name" : "release_translations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "update_translations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-update_translations-Debug-c332fbea2d6eede48d2e.json",
+					"name" : "update_translations",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/juliano/Desktop/Epub_translate/build/Qt6_9-Debug",
+		"source" : "/home/juliano/Desktop/Epub_translate"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

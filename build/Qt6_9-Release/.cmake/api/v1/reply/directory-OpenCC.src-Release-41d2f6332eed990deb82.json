@@ -1,0 +1,143 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"OpenCC/src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 155,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 162,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 169,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "/tmp/lib",
+			"paths" : 
+			[
+				"OpenCC/src/libopencc.so.1.1.9",
+				"OpenCC/src/libopencc.so.1.1"
+			],
+			"targetId" : "libopencc::@41bdf201e723fbc9e2f3",
+			"targetIndex" : 50,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "/tmp/lib",
+			"paths" : 
+			[
+				"OpenCC/src/libopencc.so"
+			],
+			"targetId" : "libopencc::@41bdf201e723fbc9e2f3",
+			"targetIndex" : 50,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "/tmp/lib",
+			"paths" : 
+			[
+				"OpenCC/deps/marisa-0.2.6/libmarisa.a"
+			],
+			"targetId" : "marisa::@95e5bc30a8a5feca5c8d",
+			"targetIndex" : 53,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "/tmp/lib/cmake/opencc",
+			"exportName" : "OpenCCTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "libopencc::@41bdf201e723fbc9e2f3",
+					"index" : 50
+				},
+				{
+					"id" : "marisa::@95e5bc30a8a5feca5c8d",
+					"index" : 53
+				}
+			],
+			"paths" : 
+			[
+				"OpenCC/src/CMakeFiles/Export/674c6eae8a518e3b4813122839670748/OpenCCTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "/tmp/include/opencc",
+			"paths" : 
+			[
+				"OpenCC/src/Common.hpp",
+				"OpenCC/src/Config.hpp",
+				"OpenCC/src/Conversion.hpp",
+				"OpenCC/src/ConversionChain.hpp",
+				"OpenCC/src/Converter.hpp",
+				"OpenCC/src/Dict.hpp",
+				"OpenCC/src/DictConverter.hpp",
+				"OpenCC/src/DictEntry.hpp",
+				"OpenCC/src/DictGroup.hpp",
+				"OpenCC/src/Exception.hpp",
+				"OpenCC/src/Export.hpp",
+				"OpenCC/src/Lexicon.hpp",
+				"OpenCC/src/MarisaDict.hpp",
+				"OpenCC/src/MaxMatchSegmentation.hpp",
+				"OpenCC/src/Optional.hpp",
+				"OpenCC/src/PhraseExtract.hpp",
+				"OpenCC/src/Segmentation.hpp",
+				"OpenCC/src/Segments.hpp",
+				"OpenCC/src/SerializableDict.hpp",
+				"OpenCC/src/SerializedValues.hpp",
+				"OpenCC/src/SimpleConverter.hpp",
+				"OpenCC/src/TextDict.hpp",
+				"OpenCC/src/UTF8StringSlice.hpp",
+				"OpenCC/src/UTF8Util.hpp",
+				"OpenCC/src/opencc.h",
+				"build/Qt6_9-Release/OpenCC/src/opencc_config.h",
+				"OpenCC/src/BinaryDict.hpp",
+				"OpenCC/src/DartsDict.hpp"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "OpenCC/src",
+		"source" : "OpenCC/src"
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"OpenCC/src/tools/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "libopencc::@41bdf201e723fbc9e2f3"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "QtInternalTargets"
+	},
+	"id" : "opencc_phrase_extract_autogen_timestamp_deps::@ae47d1f216a6650cc51e",
+	"isGeneratorProvided" : true,
+	"name" : "opencc_phrase_extract_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "OpenCC/src/tools",
+		"source" : "OpenCC/src/tools"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

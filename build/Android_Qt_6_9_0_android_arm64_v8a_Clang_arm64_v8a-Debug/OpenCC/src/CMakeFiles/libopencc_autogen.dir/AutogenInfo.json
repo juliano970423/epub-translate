@@ -1,0 +1,370 @@
+{
+	"BUILD_DIR" : "/home/juliano/Desktop/Epub_translate/build/Android_Qt_6_9_0_android_arm64_v8a_Clang_arm64_v8a-Debug/OpenCC/src/libopencc_autogen",
+	"CMAKE_BINARY_DIR" : "/home/juliano/Desktop/Epub_translate/build/Android_Qt_6_9_0_android_arm64_v8a_Clang_arm64_v8a-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/juliano/Desktop/Epub_translate/build/Android_Qt_6_9_0_android_arm64_v8a_Clang_arm64_v8a-Debug/OpenCC/src",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/juliano/Desktop/Epub_translate/OpenCC/src",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/juliano/Desktop/Epub_translate/OpenCC/src/CMakeLists.txt",
+		"/usr/share/cmake/Modules/GenerateExportHeader.cmake",
+		"/usr/share/cmake/Modules/CheckCompilerFlag.cmake",
+		"/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake",
+		"/usr/share/cmake/Modules/CheckSourceCompiles.cmake",
+		"/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake",
+		"/usr/share/cmake/Modules/CheckCCompilerFlag.cmake",
+		"/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake",
+		"/usr/share/cmake/Modules/CheckCSourceCompiles.cmake",
+		"/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake",
+		"/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake",
+		"/home/juliano/Desktop/Epub_translate/OpenCC/src/opencc_config.h.in",
+		"/usr/share/cmake/Modules/exportheader.cmake.in"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/juliano/Desktop/Epub_translate",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "/home/juliano/Desktop/Epub_translate/build/Android_Qt_6_9_0_android_arm64_v8a_Clang_arm64_v8a-Debug/OpenCC/src/libopencc_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "libopencc_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"/home/juliano/Desktop/Epub_translate/OpenCC/src/BinaryDict.hpp",
+			"MU",
+			"EWIEGA46WW/moc_BinaryDict.cpp",
+			null
+		],
+		[
+			"/home/juliano/Desktop/Epub_translate/OpenCC/src/Common.hpp",
+			"MU",
+			"EWIEGA46WW/moc_Common.cpp",
+			null
+		],
+		[
+			"/home/juliano/Desktop/Epub_translate/OpenCC/src/Config.hpp",
+			"MU",
+			"EWIEGA46WW/moc_Config.cpp",
+			null
+		],
+		[
+			"/home/juliano/Desktop/Epub_translate/OpenCC/src/Conversion.hpp",
+			"MU",
+			"EWIEGA46WW/moc_Conversion.cpp",
+			null
+		],
+		[
+			"/home/juliano/Desktop/Epub_translate/OpenCC/src/ConversionChain.hpp",
+			"MU",
+			"EWIEGA46WW/moc_ConversionChain.cpp",
+			null
+		],
+		[
+			"/home/juliano/Desktop/Epub_translate/OpenCC/src/Converter.hpp",
+			"MU",
+			"EWIEGA46WW/moc_Converter.cpp",
+			null
+		],
+		[
+			"/home/juliano/Desktop/Epub_translate/OpenCC/src/DartsDict.hpp",
+			"MU",
+			"EWIEGA46WW/moc_DartsDict.cpp",
+			null
+		],
+		[
+			"/home/juliano/Desktop/Epub_translate/OpenCC/src/Dict.hpp",
+			"MU",
+			"EWIEGA46WW/moc_Dict.cpp",
+			null
+		],
+		[
+			"/home/juliano/Desktop/Epub_translate/OpenCC/src/DictConverter.hpp",
+			"MU",
+			"EWIEGA46WW/moc_DictConverter.cpp",
+			null
+		],
+		[
+			"/home/juliano/Desktop/Epub_translate/OpenCC/src/DictEntry.hpp",
+			"MU",
+			"EWIEGA46WW/moc_DictEntry.cpp",
+			null
+		],
+		[
+			"/home/juliano/Desktop/Epub_translate/OpenCC/src/DictGroup.hpp",
+			"MU",
+			"EWIEGA46WW/moc_DictGroup.cpp",
+			null
+		],
+		[
+			"/home/juliano/Desktop/Epub_translate/OpenCC/src/Exception.hpp",
+			"MU",
+			"EWIEGA46WW/moc_Exception.cpp",
+			null
+		],
+		[
+			"/home/juliano/Desktop/Epub_translate/OpenCC/src/Export.hpp",
+			"MU",
+			"EWIEGA46WW/moc_Export.cpp",
+			null
+		],
+		[
+			"/home/juliano/Desktop/Epub_translate/OpenCC/src/Lexicon.hpp",
+			"MU",
+			"EWIEGA46WW/moc_Lexicon.cpp",
+			null
+		],
+		[
+			"/home/juliano/Desktop/Epub_translate/OpenCC/src/MarisaDict.hpp",
+			"MU",
+			"EWIEGA46WW/moc_MarisaDict.cpp",
+			null
+		],
+		[
+			"/home/juliano/Desktop/Epub_translate/OpenCC/src/MaxMatchSegmentation.hpp",
+			"MU",
+			"EWIEGA46WW/moc_MaxMatchSegmentation.cpp",
+			null
+		],
+		[
+			"/home/juliano/Desktop/Epub_translate/OpenCC/src/Optional.hpp",
+			"MU",
+			"EWIEGA46WW/moc_Optional.cpp",
+			null
+		],
+		[
+			"/home/juliano/Desktop/Epub_translate/OpenCC/src/PhraseExtract.hpp",
+			"MU",
+			"EWIEGA46WW/moc_PhraseExtract.cpp",
+			null
+		],
+		[
+			"/home/juliano/Desktop/Epub_translate/OpenCC/src/Segmentation.hpp",
+			"MU",
+			"EWIEGA46WW/moc_Segmentation.cpp",
+			null
+		],
+		[
+			"/home/juliano/Desktop/Epub_translate/OpenCC/src/Segments.hpp",
+			"MU",
+			"EWIEGA46WW/moc_Segments.cpp",
+			null
+		],
+		[
+			"/home/juliano/Desktop/Epub_translate/OpenCC/src/SerializableDict.hpp",
+			"MU",
+			"EWIEGA46WW/moc_SerializableDict.cpp",
+			null
+		],
+		[
+			"/home/juliano/Desktop/Epub_translate/OpenCC/src/SerializedValues.hpp",
+			"MU",
+			"EWIEGA46WW/moc_SerializedValues.cpp",
+			null
+		],
+		[
+			"/home/juliano/Desktop/Epub_translate/OpenCC/src/SimpleConverter.hpp",
+			"MU",
+			"EWIEGA46WW/moc_SimpleConverter.cpp",
+			null
+		],
+		[
+			"/home/juliano/Desktop/Epub_translate/OpenCC/src/TextDict.hpp",
+			"MU",
+			"EWIEGA46WW/moc_TextDict.cpp",
+			null
+		],
+		[
+			"/home/juliano/Desktop/Epub_translate/OpenCC/src/UTF8StringSlice.hpp",
+			"MU",
+			"EWIEGA46WW/moc_UTF8StringSlice.cpp",
+			null
+		],
+		[
+			"/home/juliano/Desktop/Epub_translate/OpenCC/src/UTF8Util.hpp",
+			"MU",
+			"EWIEGA46WW/moc_UTF8Util.cpp",
+			null
+		],
+		[
+			"/home/juliano/Desktop/Epub_translate/OpenCC/src/opencc.h",
+			"MU",
+			"EWIEGA46WW/moc_opencc.cpp",
+			null
+		],
+		[
+			"/home/juliano/Desktop/Epub_translate/build/Android_Qt_6_9_0_android_arm64_v8a_Clang_arm64_v8a-Debug/OpenCC/src/opencc_config.h",
+			"MU",
+			"EJRQKI7XPS/moc_opencc_config.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/juliano/Desktop/Epub_translate/build/Android_Qt_6_9_0_android_arm64_v8a_Clang_arm64_v8a-Debug/OpenCC/src/libopencc_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/juliano/Desktop/Epub_translate/build/Android_Qt_6_9_0_android_arm64_v8a_Clang_arm64_v8a-Debug/OpenCC/src/libopencc_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"ENABLE_DARTS",
+		"LOCALEDIR=\"/tmp/share/locale\"",
+		"PACKAGE_NAME=\"opencc\"",
+		"PKGDATADIR=\"/tmp/share/opencc\"",
+		"VERSION=\"1.1.9.Debug\"",
+		"libopencc_EXPORTS"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/juliano/Desktop/Epub_translate/build/Android_Qt_6_9_0_android_arm64_v8a_Clang_arm64_v8a-Debug/OpenCC/src",
+		"/home/juliano/Desktop/Epub_translate/OpenCC/src",
+		"/home/juliano/Desktop/Epub_translate/OpenCC/deps/marisa-0.2.6/include",
+		"/home/juliano/Desktop/Epub_translate/OpenCC/deps/rapidjson-1.1.0",
+		"/home/juliano/Desktop/Epub_translate/OpenCC/deps/tclap-1.2.5",
+		"/home/juliano/Desktop/Epub_translate/OpenCC/deps/darts-clone-0.32",
+		"/home/juliano/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1",
+		"/home/juliano/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/include",
+		"/home/juliano/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/aarch64-linux-android",
+		"/home/juliano/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_GADGET_EXPORT",
+		"Q_ENUM_NS"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/home/juliano/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp",
+		"--target=aarch64-none-linux-android23"
+	],
+	"MOC_PREDEFS_FILE" : "/home/juliano/Desktop/Epub_translate/build/Android_Qt_6_9_0_android_arm64_v8a_Clang_arm64_v8a-Debug/OpenCC/src/libopencc_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/home/juliano/Desktop/Epub_translate/build/Android_Qt_6_9_0_android_arm64_v8a_Clang_arm64_v8a-Debug/OpenCC/src/CMakeFiles/libopencc_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/run/media/juliano/6EF626C4F6268C81/QtLinux/6.9.0/gcc_64/libexec/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 9,
+	"SETTINGS_FILE" : "/home/juliano/Desktop/Epub_translate/build/Android_Qt_6_9_0_android_arm64_v8a_Clang_arm64_v8a-Debug/OpenCC/src/CMakeFiles/libopencc_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/juliano/Desktop/Epub_translate/OpenCC/src/BinaryDict.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/juliano/Desktop/Epub_translate/OpenCC/src/Config.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/juliano/Desktop/Epub_translate/OpenCC/src/Conversion.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/juliano/Desktop/Epub_translate/OpenCC/src/ConversionChain.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/juliano/Desktop/Epub_translate/OpenCC/src/Converter.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/juliano/Desktop/Epub_translate/OpenCC/src/DartsDict.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/juliano/Desktop/Epub_translate/OpenCC/src/Dict.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/juliano/Desktop/Epub_translate/OpenCC/src/DictConverter.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/juliano/Desktop/Epub_translate/OpenCC/src/DictEntry.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/juliano/Desktop/Epub_translate/OpenCC/src/DictGroup.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/juliano/Desktop/Epub_translate/OpenCC/src/Lexicon.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/juliano/Desktop/Epub_translate/OpenCC/src/MarisaDict.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/juliano/Desktop/Epub_translate/OpenCC/src/MaxMatchSegmentation.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/juliano/Desktop/Epub_translate/OpenCC/src/PhraseExtract.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/juliano/Desktop/Epub_translate/OpenCC/src/Segmentation.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/juliano/Desktop/Epub_translate/OpenCC/src/SerializedValues.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/juliano/Desktop/Epub_translate/OpenCC/src/SimpleConverter.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/juliano/Desktop/Epub_translate/OpenCC/src/TextDict.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/juliano/Desktop/Epub_translate/OpenCC/src/UTF8StringSlice.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/juliano/Desktop/Epub_translate/OpenCC/src/UTF8Util.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

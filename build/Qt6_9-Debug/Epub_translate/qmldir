@@ -1,0 +1,5 @@
+module Epub_translate
+typeinfo appEpub_translate.qmltypes
+prefer :/qt/qml/Epub_translate/
+Main 1.0 Main.qml
+

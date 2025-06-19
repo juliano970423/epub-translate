@@ -1,0 +1,75 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"OpenCC/deps/marisa-0.2.6/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "marisa_autogen_timestamp_deps::@95e5bc30a8a5feca5c8d"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "QtInternalTargets"
+	},
+	"id" : "marisa_autogen::@95e5bc30a8a5feca5c8d",
+	"isGeneratorProvided" : true,
+	"name" : "marisa_autogen",
+	"paths" : 
+	{
+		"build" : "OpenCC/deps/marisa-0.2.6",
+		"source" : "OpenCC/deps/marisa-0.2.6"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt6_9-Release/OpenCC/deps/marisa-0.2.6/CMakeFiles/marisa_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt6_9-Release/OpenCC/deps/marisa-0.2.6/CMakeFiles/marisa_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt6_9-Release/OpenCC/deps/marisa-0.2.6/marisa_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

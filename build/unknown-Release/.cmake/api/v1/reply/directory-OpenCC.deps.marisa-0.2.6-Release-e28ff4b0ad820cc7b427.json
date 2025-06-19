@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "OpenCC/deps/marisa-0.2.6",
+		"source" : "OpenCC/deps/marisa-0.2.6"
+	}
+}

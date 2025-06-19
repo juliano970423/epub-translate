@@ -1,0 +1,14 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/juliano/Desktop/Epub_translate/build/unknown-Release/cmake_install.cmake",
+		"/home/juliano/Desktop/Epub_translate/build/unknown-Release/OpenCC/cmake_install.cmake",
+		"/home/juliano/Desktop/Epub_translate/build/unknown-Release/OpenCC/deps/marisa-0.2.6/cmake_install.cmake",
+		"/home/juliano/Desktop/Epub_translate/build/unknown-Release/OpenCC/src/cmake_install.cmake",
+		"/home/juliano/Desktop/Epub_translate/build/unknown-Release/OpenCC/src/tools/cmake_install.cmake",
+		"/home/juliano/Desktop/Epub_translate/build/unknown-Release/OpenCC/doc/cmake_install.cmake",
+		"/home/juliano/Desktop/Epub_translate/build/unknown-Release/OpenCC/data/cmake_install.cmake",
+		"/home/juliano/Desktop/Epub_translate/build/unknown-Release/OpenCC/test/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

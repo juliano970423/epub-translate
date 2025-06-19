@@ -1,0 +1,12 @@
+-I
+/home/juliano/Desktop/Epub_translate/build/Android_Qt_6_9_0_android_x86_64_Clang_x86_64-Debug
+-I
+/run/media/juliano/6EF626C4F6268C81/QtLinux/6.9.0/android_x86_64/qml
+--resource
+/home/juliano/Desktop/Epub_translate/build/Android_Qt_6_9_0_android_x86_64_Clang_x86_64-Debug/.qt/rcc/qmake_Epub_translate.qrc
+--resource
+/home/juliano/Desktop/Epub_translate/build/Android_Qt_6_9_0_android_x86_64_Clang_x86_64-Debug/.qt/rcc/appEpub_translate_raw_qml_0.qrc
+--resource
+/home/juliano/Desktop/Epub_translate/build/Android_Qt_6_9_0_android_x86_64_Clang_x86_64-Debug/.qt/rcc/appEpub_translate_translations.qrc
+--module
+Epub_translate
